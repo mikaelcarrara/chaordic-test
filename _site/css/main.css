@@ -568,100 +568,24 @@ header {
   .content li {
     font-size: 14px; }
 
-.pic {
-  text-align: center; }
-  .pic img {
-    border: 1px solid rgba(132, 109, 80, 0.2);
-    margin-top: 25px;
-    padding: 5px; }
-  .pic .desc {
-    font-size: 12px; }
-
-.cases-list {
+.product-list {
   padding: 0;
   margin: 0; }
-  .cases-list li {
+  .product-list li {
     border-top: 1px solid #ddd;
     padding-top: 30px;
     margin-top: 30px;
     list-style-type: none;
     max-width: 68em;
     margin-left: auto;
-    margin-right: auto;
-    max-width: 80%; }
-    .cases-list li::after {
+    margin-right: auto; }
+    .product-list li::after {
       clear: both;
       content: "";
       display: table; }
     @media (max-width: 686px) {
-      .cases-list li {
+      .product-list li {
         max-width: 100%; } }
-  .cases-list li:first-child {
-    border-top: none;
-    padding-top: 0;
-    margin-top: 0; }
-  .cases-list .case-title {
-    font-size: 22px;
-    line-height: 32px; }
-    @media (max-width: 686px) {
-      .cases-list .case-title {
-        font-size: 18px;
-        line-height: 22px; } }
-    .cases-list .case-title a {
-      color: #35739f; }
-      .cases-list .case-title a:hover {
-        opacity: .8; }
-  .cases-list .case-infos {
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 65.88078%; }
-    .cases-list .case-infos:last-child {
-      margin-right: 0; }
-    @media (max-width: 686px) {
-      .cases-list .case-infos {
-        float: left;
-        display: block;
-        margin-right: 2.35765%;
-        width: 100%;
-        margin-bottom: 20px; }
-        .cases-list .case-infos:last-child {
-          margin-right: 0; } }
-  .cases-list .case-img {
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 23.23176%;
-    float: right; }
-    .cases-list .case-img:last-child {
-      margin-right: 0; }
-    @media (max-width: 686px) {
-      .cases-list .case-img {
-        float: left;
-        display: block;
-        margin-right: 2.35765%;
-        width: 100%;
-        text-align: center;
-        float: none; }
-        .cases-list .case-img:last-child {
-          margin-right: 0; } }
-    .cases-list .case-img img {
-      width: 100%; }
-      @media (max-width: 686px) {
-        .cases-list .case-img img {
-          width: 180px; } }
-
-.view-more {
-  border-radius: 2px;
-  display: inline-block;
-  height: 26px;
-  line-height: 26px;
-  padding: 0 8px;
-  font-weight: bold;
-  font-size: 12px;
-  background: #ede9e5;
-  color: #846d50;
-  margin-top: 20px; }
 
 footer {
   font-size: 12px;
