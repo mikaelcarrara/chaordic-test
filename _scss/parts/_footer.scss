@@ -2,13 +2,18 @@
 
 footer {
   width: 100%;
-  border-top: 1px solid $light-gray-2;
-  position: absolute;
+  position: fixed;
   bottom: 0;
   left: 0;
   font-size: $font-small;
   background: $white;
   padding: 15px 0;
+
+  @media (max-width: 686px) {
+    position: relative;
+    bottom: none;
+    left: none;
+  }
 
   p {
     font-weight: bold;

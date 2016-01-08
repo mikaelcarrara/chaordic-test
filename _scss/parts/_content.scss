@@ -1,35 +1,38 @@
 // Content
 
 .content {
-  padding: 70px 0;
+  padding: 50px 0 100px 0;
   @include clearfix;
 
-  p {
-    font-size: $font-medium-2;
-    margin: 15px 0 0 0;
-    color: $medium-gray;
-    line-height: 24px;
+  @media (max-width: 686px) {
+    padding: 30px 0;
+  }
+
+  h2 {
+    font-weight: normal;
+    margin: 0 0 20px 0;
+    line-height: auto;
+    font-size: $font-large-2;
+    color: $dark-gray;
+  }
+
+  aside {
+    width: 210px;
+    float: left;
 
     @media (max-width: 686px) {
-      line-height: 21px;
+      width: 100%;
+      float: none;
     }
   }
 
-  h3 {
-    margin: 0;
-  }
+  .entry {
+    margin-left: 270px;
+    @include clearfix;
 
-  h4 {
-    margin-top: 30px;
-  }
-
-  h4:first-child {
-    margin-top: 0;
-  }
-
-  h3,
-  li {
-    font-size: $font-medium;
+    @media (max-width: 686px) {
+      margin: 30px 0 0 0;
+    }
   }
 }
 
