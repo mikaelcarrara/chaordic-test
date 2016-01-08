@@ -606,6 +606,14 @@ header {
         clear: both;
         content: "";
         display: table; }
+      .products-list li > a:hover {
+        opacity: .8; }
+      .products-list li > a h3 {
+        margin: 0;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 19px;
+        color: #333; }
     .products-list li img {
       width: 100%;
       padding: 10px; }
@@ -615,12 +623,26 @@ header {
           margin-right: 12px;
           float: left; } }
   .products-list .product-infos {
-    text-align: left; }
-  .products-list h3 {
-    margin: 0;
-    font-weight: normal;
+    font-weight: bold;
+    text-align: left;
+    color: #d52d30; }
+  .products-list .main-price {
+    margin-top: 10px;
+    color: #000; }
+    .products-list .main-price span {
+      font-size: 12px;
+      font-weight: normal;
+      color: #888;
+      text-decoration: line-through;
+      margin-left: 5px; }
+  .products-list .price span {
+    vertical-align: top;
     font-size: 14px;
-    line-height: 19px; }
+    margin: 4px 5px 0 0;
+    float: left; }
+  .products-list .price strong {
+    vertical-align: top;
+    font-size: 22px; }
 
 @media (max-width: 1010px) {
   .entry .products-list li {

@@ -29,6 +29,18 @@
       padding: 10px;
       text-align: center;
       @include clearfix;
+
+      &:hover {
+        opacity: .8;
+      }
+
+      h3 {
+        margin: 0;
+        font-weight: normal;
+        font-size: $font-medium;
+        line-height: 19px;
+        color: $dark-gray;
+      }
     }
 
     img {
@@ -44,14 +56,37 @@
   }
 
   .product-infos {
+    font-weight: bold;
     text-align: left;
+    color: $red;
   }
 
-  h3 {
-    margin: 0;
-    font-weight: normal;
-    font-size: $font-medium;
-    line-height: 19px;
+  .main-price {
+    margin-top: 10px;
+    color: $black;
+
+    span {
+      font-size: $font-small;
+      font-weight: normal;
+      color: $medium-gray;
+      text-decoration: line-through;
+      margin-left: 5px;
+    }
+  }
+
+  .price {
+
+    span {
+      vertical-align: top;
+      font-size: $font-medium;
+      margin: 4px 5px 0 0;
+      float: left;
+    }
+
+    strong {
+      vertical-align: top;
+      font-size: $font-large-2;
+    }
   }
 }
 
