@@ -1,15 +1,6 @@
 // Header
 
 header {
-  background: $light-gray;
-  height: 50px;
-
-  a img {
-    width: 160px;
-    margin-top: 15px;
-
-    &:hover {
-      opacity: .9;
-    }
-  }
+  background: $red;
+  height: 70px;
 }
