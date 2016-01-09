@@ -9,11 +9,11 @@
     float: left;
     margin: 0 0 0 10px;
 
-    @media (max-width: 1240px) {
+    @media (max-width: 1265px) {
       margin: 0 0 0 6%;
     }
 
-    @media (max-width: 1075px) {
+    @media (max-width: 1095px) {
       margin: 0 0 0 2%;
     }
 
@@ -95,7 +95,7 @@
 
   .products-list {
 
-    @media (max-width: 1010px) {
+    @media (max-width: 1025px) {
 
       li {
         width: 100%;
@@ -122,13 +122,40 @@
 
 .entry .products-list li:last-child {
 
-  @media (max-width: 1240px) {
+  @media (max-width: 1265px) {
     display: none;
   }
 
-  @media (max-width: 1010px) {
+  @media (max-width: 1025px) {
     display: block;
   }
+}
+
+
+// Arrows
+
+.carousel {
+  position: relative;
+}
+
+.ion-arrow-left-b,
+.ion-arrow-right-b {
+  font-size: $font-large-2;
+  position: absolute;
+  top: 48%;
+  color: $red;
+
+  @media (max-width: 1025px) {
+    display: none;
+  }
+}
+
+.ion-arrow-left-b {
+  left: -20px;
+}
+
+.ion-arrow-right-b {
+  right: 1%;
 }
 
 
