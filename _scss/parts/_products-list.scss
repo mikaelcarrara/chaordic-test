@@ -40,12 +40,13 @@
         font-size: $font-medium;
         line-height: 19px;
         color: $dark-gray;
+        font-family: $helvetica;
       }
     }
 
     img {
       width: 100%;
-      padding: 10px;
+      padding: 7px 10px;
 
       @media (max-width: 686px) {
         width: 100px;
