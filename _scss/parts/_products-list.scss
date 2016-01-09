@@ -62,7 +62,6 @@
   }
 
   .main-price {
-    margin-top: 10px;
     color: $black;
 
     span {
@@ -75,6 +74,7 @@
   }
 
   .price {
+    margin-top: -5px;
 
     span {
       vertical-align: top;
@@ -130,3 +130,14 @@
   }
 }
 
+
+// Stars
+
+.ion-star {
+  color: $medium-gray;
+  font-size: $font-medium-2;
+}
+
+.star-actived {
+  color: $yellow;
+}
